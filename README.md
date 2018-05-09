@@ -27,8 +27,16 @@ Time Taken 30.508347749710083
 Time Taken 30.945880651474  
 Time Taken 30.23419690132141  
 
-Tesla K80:  
+Tesla K80: 
+num_gpu: 1 num_epoch: 1  
 Time Taken 6.35714316368103  
+num_gpu: 1 num_epoch: 2  
+Time Taken for training 11.086159706115723
+
+num_gpu: 2 num_epoch: 1 
+Time Taken for training 17.086159706115723  
+num_gpu: 2 num_epoch: 2 
+Time Taken for training 17.086159706115723  
 
 CPU:  (b08)
 - epoch = 1  
