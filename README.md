@@ -3,29 +3,29 @@ qlogin -l 'hostname=c*,gpu=1' -now no
 /export/b08/aaror/git_pytorch/pytorch-mnist  
 
 GPU:  
- - epoch = 1  
+ - epoch = 1  (C08)
 Time Taken 9.177405834197998  
 Time Taken 7.968928098678589  
 Time Taken 7.470052719116211  
 Time Taken 7.209326505661011  
 
-- epoch = 2  
+- epoch = 2  (c08)
 Time Taken 16.85746455192566  
 Time Taken 15.698396921157837  
 Time Taken 15.549557447433472  
 
-- epoch = 4  
+- epoch = 4  (c08)
 Time Taken 29.222759008407593  
 Time Taken 30.508347749710083  
 Time Taken 30.945880651474  
 Time Taken 30.23419690132141  
 
-CPU:  
+CPU:  (b08)
 - epoch = 1  
 Time Taken 31.005918979644775  
 Time Taken 30.526674270629883  
 
-- epoch = 2  
+- epoch = 2 (b08)  
 Time Taken 56.815739154815674  
 Time Taken 56.27461886405945  
 Time Taken 54.67753767967224  
@@ -33,7 +33,7 @@ Time Taken 56.7895827293396
 Time Taken 65.07774114608765  
 Time Taken 64.50405240058899  
 
-- epoch = 4  
+- epoch = 4  (b08)
 Time Taken 109.65595316886902  
 Time Taken 108.75079822540283  
 Time Taken 123.96786570549011  
