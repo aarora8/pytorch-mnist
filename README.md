@@ -45,7 +45,11 @@ num_gpu: 2 Time Taken for training 34.263713121414185
 # num_gpu: 3 Time Taken for training 69.010981798172  
 
 deeper_model:
-Time Taken for training 102.7382481098175
+num_gpu:2 Time Taken for training 102.7382481098175
+90.33354663848877  89.0032160282135  85.15420651435852  
+
+num_gpu:1 Time Taken for training 78.56940531730652  
+73 sec, 74sec
 
 CPU:  (b08)
 - epoch = 1  
