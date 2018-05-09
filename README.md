@@ -1,4 +1,5 @@
 GTX 1080ti  11172 MiB  
+Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz
 
 qlogin -l 'hostname=c*,gpu=1' -now no  
 
