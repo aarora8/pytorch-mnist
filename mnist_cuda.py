@@ -86,10 +86,6 @@ def train(epoch):
         loss = F.nll_loss(output, target)
         loss.backward()
         optimizer.step()
-        if batch_idx % args.log_interval == 0:
-            print('Train Epoch: {} [{}/{} ({:.0f}%)]\tLoss: {:.6f}'.format(
-                epoch, batch_idx * len(data), len(train_loader.dataset),
-                100. * batch_idx / len(train_loader), loss.data[0]))
 
 def test():
     model.eval()
@@ -110,9 +106,9 @@ def test():
         100. * correct / len(test_loader.dataset)))
 
 
+start = time.time()
 for epoch in range(1, args.epochs + 1):
-    start = time.time()
     train(epoch)
-    end = time.time()
     test()
-    print("Time Taken",end - start)
+end = time.time()
+print("Time Taken",end - start)
