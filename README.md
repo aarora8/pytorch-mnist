@@ -27,6 +27,9 @@ Time Taken 30.508347749710083
 Time Taken 30.945880651474  
 Time Taken 30.23419690132141  
 
+Tesla K80:  
+Time Taken 6.35714316368103  
+
 CPU:  (b08)
 - epoch = 1  
 Time Taken 31.005918979644775  
