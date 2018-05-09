@@ -5,7 +5,9 @@ qlogin -l 'hostname=c*,gpu=1' -now no
 /export/b08/aaror/git_pytorch/pytorch-mnist  
 
 k GPUs on a machine, use either qsub or qlogin and add flag -l 'gpu=k'  
-
+devices=`free-gpu`  
+python some_gpu_jobs.py -gpuid $devices  
+CUDA_VISIBLE_DEVICES=`free-gpu` python some_gpu_jobs.py  
 
 GPU:  
  - epoch = 1  (C08)
