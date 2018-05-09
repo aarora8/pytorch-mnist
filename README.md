@@ -67,4 +67,5 @@ Test set: Average loss: 0.0820, Accuracy: 9740/10000 (97%)
 multi CPU:  
 num_cpu: 1 Time Taken 29.02730965614319  
 num_cpu: 2 Time Taken 19.031011819839478  
+num_cpu: 3 Time Taken 15.54700493812561  
 num_cpu: 4 Time Taken 13.457727909088135  
