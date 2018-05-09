@@ -38,6 +38,11 @@ Time Taken for training 10.670583963394165
 num_gpu: 2 num_epoch: 2 
 Time Taken for training 17.086159706115723  
 
+num_epoch: 5  
+num_gpu: 1 Time Taken for training 36.39402890205383  
+num_gpu: 2 Time Taken for training 69.010981798172  
+# num_gpu: 3 Time Taken for training 69.010981798172  
+
 CPU:  (b08)
 - epoch = 1  
 Time Taken 31.005918979644775  
