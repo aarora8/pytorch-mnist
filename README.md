@@ -31,10 +31,10 @@ Tesla K80:
 num_gpu: 1 num_epoch: 1  
 Time Taken 6.35714316368103  
 num_gpu: 1 num_epoch: 2  
-Time Taken for training 11.086159706115723
+Time Taken for training 13.206877946853638  
 
 num_gpu: 2 num_epoch: 1 
-Time Taken for training 17.086159706115723  
+Time Taken for training 10.670583963394165  
 num_gpu: 2 num_epoch: 2 
 Time Taken for training 17.086159706115723  
 
