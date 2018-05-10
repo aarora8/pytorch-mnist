@@ -98,3 +98,7 @@ num_cpu: 1 Time Taken 29.02730965614319
 num_cpu: 2 Time Taken 19.031011819839478  
 num_cpu: 3 Time Taken 15.54700493812561  
 num_cpu: 4 Time Taken 13.457727909088135  
+
+Fashion mnist:
+3 epoch shallow: 23.63  
+1 epoch deep: 17.58  
