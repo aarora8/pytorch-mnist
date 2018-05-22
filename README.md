@@ -10,6 +10,7 @@ devices=`free-gpu`
 python some_gpu_jobs.py -gpuid $devices  
 CUDA_VISIBLE_DEVICES=`free-gpu` python some_gpu_jobs.py  
 
+ssh -Y aaror@login2.clsp.jhu.edu
 eog bound_0.png
 
 GPU:  
