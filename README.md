@@ -10,6 +10,8 @@ devices=`free-gpu`
 python some_gpu_jobs.py -gpuid $devices  
 CUDA_VISIBLE_DEVICES=`free-gpu` python some_gpu_jobs.py  
 
+eog bound_0.png
+
 GPU:  
  - epoch = 1  (C08)
 Time Taken 9.177405834197998  
